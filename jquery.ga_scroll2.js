@@ -14,7 +14,7 @@
 			enable: true,
 			slot: 3,
 			category: 'ga_scroll',
-			scope: 1
+			scope: 2
 		},
 		track_scroll: {
 			enable: true,
