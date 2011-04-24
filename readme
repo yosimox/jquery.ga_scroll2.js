@@ -1,7 +1,7 @@
 Google Analyticsで、どこまでスクロールされたのかを計るための、jQueryプラグインです。
 また、同時にページの滞在時間も計ることができます。
 
-デフォルトの状態で利用すると、ページを移動するときに以下のようなデータがGoogle Analyticsへ送信されます。
+
 
 ■使い方
 jqueryを読み込んだ後に、jquery.ga_scroll2.jsを読み込んで、実行させてください。
@@ -13,10 +13,11 @@ jqueryを読み込んだ後に、jquery.ga_scroll2.jsを読み込んで、実行
 	})
 </script>
 こんな感じです。
-その後、普通にGoogle Analyticsのコードを記載してください。
 
 
 ■取得されるデータ
+デフォルトの状態で利用すると、ページを移動するときに以下のようなデータがGoogle Analyticsへ送信されます。
+
 ・カスタムイベント（スクロール）
 category: 「scroll」
 action : 設置したページのURL
@@ -41,6 +42,9 @@ var defualt_options = { 〜〜
 が設定箇所です。
 enableをfalseにすると、機能が使えなくなります。
 track_scrollもしくは、track_durationのどちらかは必ずtrueにしておいてください。
+
+
+引数に設定内容を入れて、渡すこともできます。jQuery分かる人は利用してみてください。
 
 
 
