@@ -9,7 +9,7 @@
 
 	var default_options = {
 		tracker_name: '',				// トラッカー名（t2など,通常は空文字でOK）
-		page_var: [1,2],				// サイト内で使用しているページレベルのカスタム変数が入ってるスロット
+		page_var: [],				// サイト内で使用しているページレベルのカスタム変数が入ってるスロット
 		custom_var: {
 			enable: true,
 			slot: 3,
