@@ -13,6 +13,7 @@ jqueryを読み込んだ後に、jquery.ga_scroll2.jsを読み込んで、実行
 	})
 </script>
 こんな感じです。
+その後、普通にGoogle Analyticsのコードを記載してください。
 
 
 ■取得されるデータ
