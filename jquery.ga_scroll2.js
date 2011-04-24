@@ -125,7 +125,7 @@
 				params.scroll = 100 < ratio ? 100 : ratio;
 
 			}
-			console.log(params.scroll);
+			//console.log(params.scroll);
 		},
 
 		_push: function(params) {
